@@ -1554,7 +1554,7 @@ div#preloader {
 }
 .hero-slider .slide-inner .slide-content{
   /* background: rgba(133,170,186,.8); */
-  background: rgba(92,108,97,.8);
+  background: rgba(84,41,32,.6);
   border-top-right-radius: 80px;
   border-bottom-left-radius: 80px;
   -webkit-animation: spineer 2s infinite;
@@ -2116,7 +2116,7 @@ couple-area end
 =============================*/
 
 .count-down-area {
-    background: url(../images/counter/1.jpg) no-repeat center center / cover;
+    background: url(../images/cta/img-1.jpg) no-repeat center center / cover;
     background-attachment: fixed;
     position: relative;
 }
@@ -3015,7 +3015,7 @@ animation: spineer 2s infinite;
 }
 
 .rsvp-area {
-    background: url(../images/rsvp/img-1.jpg) no-repeat center center / cover;
+    background: url(../images/cta/img-1.jpg) no-repeat center center / cover;
     padding: 150px 0;
     position: relative;
     background-attachment: fixed;
