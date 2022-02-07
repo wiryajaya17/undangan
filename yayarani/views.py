@@ -13,8 +13,8 @@ def create(request):
         rsvp = Rsvp()
         rsvp.owner = 'twainlove'
         rsvp.name = request.POST['name']
-        rsvp.email = request.POST['email']
-        rsvp.num_of_rsvp = request.POST['num_of_rsvp']
+        rsvp.email = ''
+        rsvp.num_of_rsvp = 1
         rsvp.flag_attending = request.POST['flag_attending']
         rsvp.message_body = request.POST['message_body']
         rsvp.save()

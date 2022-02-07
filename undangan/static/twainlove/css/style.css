@@ -46,6 +46,7 @@ URL:            http://themeforest.net/user/themepresss
 	Fonts
 ----------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700|Great+Vibes');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
 /*--------------------------------------------------------------
 #0.1    Theme Reset Style
 --------------------------------------------------------------*/
@@ -1007,9 +1008,9 @@ div#preloader {
 }
 
 .site-header .site-logo a {
-  font-size: 35px;
+  font-size: 27px;
   font-size: 2.1875rem;
-  color: #fff;
+  color: #5c6c61;
   padding: 9px 15px;
   font-family: 'Great Vibes', cursive;
 }
@@ -1553,8 +1554,8 @@ div#preloader {
   text-align: left;
 }
 .hero-slider .slide-inner .slide-content{
-  /* background: rgba(133,170,186,.8); */
-  background: rgba(84,41,32,.6);
+  background: rgba(92,108,97,.2);
+  /* background: rgba(84,41,32,.6); */
   border-top-right-radius: 80px;
   border-bottom-left-radius: 80px;
   -webkit-animation: spineer 2s infinite;
@@ -1708,17 +1709,17 @@ div#preloader {
 }
 
  .hero-style-2 .slide-title h2, .hero-style-3 .slide-title h2 {
-  font-size: 72px;
-  font-size: 4.5rem;
+  font-size: 55px;
+  /* font-size: 4.5rem; */
   font-weight: bold;
-  color: #fff;
+  color: #5c6c61;
   font-family: 'Great Vibes', cursive;
 }
 
 @media (max-width: 991px) {
  .hero-style-2 .slide-title h2, .hero-style-3 .slide-title h2 {
-    font-size: 55px;
-    font-size: 3.4375rem;
+    font-size: 35px;
+    /* font-size: 3.4375rem; */
   }
 }
 
@@ -1736,7 +1737,7 @@ div#preloader {
  .hero-style-2 .slide-text p, .hero-style-3 .slide-text p {
   font-size: 20px;
   font-size: 1.25rem;
-  color: #fff;
+  color: #5c6c61;
 }
 
 @media (max-width: 991px) {
@@ -1804,7 +1805,7 @@ div#preloader {
 }
 
 .site-footer .text{
-  background: rgba(92,108,98,.4);
+  background: rgba(92,108,98,.2);
   max-width: 600px;
   margin: auto;
   padding: 60px 0;
@@ -1847,8 +1848,8 @@ div#preloader {
 }
 
 .site-footer h2 {
-  font-size: 60px;
-  font-size: 3.75rem;
+  font-size: 35px;
+  /* font-size: 3.75rem; */
   color: #eae8e8;
   margin: 0 0 0.3em;
   display: inline-block;
@@ -1859,16 +1860,16 @@ div#preloader {
 
 @media (max-width: 767px) {
   .site-footer h2 {
-    font-size: 50px;
-    font-size: 3.125rem;
+    font-size: 35px;
+    /* font-size: 3.125rem; */
     padding: 0 40px;
   }
 }
 
 @media (max-width: 450px) {
   .site-footer h2 {
-    font-size: 45px;
-    font-size: 2.8125rem;
+    font-size: 35px;
+    /* font-size: 2.8125rem; */
     padding: 0;
   }
 }
@@ -2028,7 +2029,7 @@ div#preloader {
 .couple-img{
   position: relative;
   overflow: hidden;
-  border:2px solid#85aaba;
+  border:2px solid#5c6c61;
   border-top-right-radius: 80px;
   border-bottom-left-radius: 80px;
 }
@@ -2038,7 +2039,7 @@ div#preloader {
   border-bottom-right-radius: 80px;
 }
 .couple-img img{
-  transform: scale(1.2);
+  transform: scale(1.0);
   transition: all .3s;
   width: 100%;
 }
@@ -2054,7 +2055,7 @@ div#preloader {
     width: 40px;
     height: 40px;
     line-height: 40px;
-    border: 1px solid#85aaba;
+    border: 1px solid#5c6c61;
     text-align: center;
     margin:0 5px;
     border-top-left-radius: 10px;
@@ -2073,11 +2074,12 @@ div#preloader {
 }
 
 .couple-content h4 {
-    font-size: 40px;
+    font-size: 30px;
     color: #5c6c61;
-    font-weight: 700;
+    font-weight: 400;
     font-family: 'Great Vibes', cursive;
-    text-transform: capitalize;
+    /* font-family: 'themify', sans-serif; */
+    /* text-transform: capitalize; */
 }
 
 
@@ -2522,8 +2524,36 @@ animation: spineer 2s infinite;
     font-family: 'Great Vibes', cursive;
 }
 
+.cta-content h3 {
+    font-size: 60px;
+    /* color: #fff; */
+    color: #5c6c61;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.cta-content h4 {
+    font-size: 30px;
+    /* color: #fff; */
+    color: #5c6c61;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.cta-content h5 {
+    font-size: 20px;
+    /* color: #fff; */
+    color: #5c6c61;
+    font-family: 'Great Vibes', cursive;
+}
+
+.cta-content h6 {
+    font-size: 20px;
+    /* color: #fff; */
+    color: #5c6c61;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
 .cta-content p {
-    font-size: 18px;
+    font-size: 15px;
     padding: 20px 50px 30px;
     color: #5c6c61;
     max-width: 700px;
@@ -3924,6 +3954,7 @@ option {
 .blog-single-section .comments-area .comments-title {
   font-size: 22px;
   font-size: 1.375rem;
+  color: #5c6c61;
   margin: 0 0 1.5em;
 }
 
