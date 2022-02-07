@@ -125,7 +125,7 @@
                     <div class="col-lg-12">
                         <div class="cta-content" data-aos="fade-up" data-aos-duration="2000">
                             <h2>Om Swastiastu</h2>
-                            <p>Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa / Tuhan yang Maha Esa, kami akan menyelenggarakan acara resepsi Pawiwahan putra-putri kami, yang akan dilaksanakan pada: </p>
+                            <p>Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa / Tuhan yang Maha Esa, kami akan menyelenggarakan acara resepsi Pawiwahan putra-putri kami: </p>
                             <div data-aos="fade-up" data-aos-duration="2000">
                               <h5>Save The Date </h5>
                               <h3>JUMAT</h3>
@@ -356,13 +356,13 @@
               <div class="modal-body">
                   <div class="out-info">
                     <img src="{% static 'twainlove/images/cta/cover-modal.jpg' %}" alt="" />
-                    <p>Om Swastiastu<br>Tanpa mengurangi rasa hormat, kami bermaksud mengundang Bapak/Ibu/Saudara/i pada Upacara Manusa Yadnya (Pawiwahan) putra-putri kami.
+                    <p>Om Swastiastu<br>Tanpa mengurangi rasa hormat, kami bermaksud mengundang Bapak/Ibu/Saudara/i pada acara resepsi Pawiwahan putra-putri kami.
                     <br><br>Yang Berbahagia
-                    <br>Mr & Mrs Elizabeth</p>
+                    <br>Gungde Yaya & Gung Rani</p>
 
                   </div>
                   <!-- <button type="button" class="btn btn-dark btn-lg">{{ message | upper }}</button> <br> -->
-                  <a id="buka" href="#" class="btn btn-info" data-dismiss="modal">BUKA UNDANGAN</a>
+                  <a id="buka" href="#" class="btn btn-info" style="background-color: #5c6c61" data-dismiss="modal">BUKA UNDANGAN</a>
 
 
                 </div>
@@ -377,12 +377,12 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                         <div class="rsvp-wrap">
-                            <div class="col-12">
+                            <div class="col-12" data-aos="fade-up" data-aos-duration="2000">
                                 <div class="section-title section-title-2 text-center">
                                     <h2>Send Your Wishes</h2>
                                 </div>
                             </div>
-                            <div class="contact-form form-style">
+                            <div class="contact-form form-style" data-aos="fade-up" data-aos-duration="2000">
                                 <form action="{% url 'create' %}" class="validate-rsvp-form" method="POST">
                                   {% csrf_token %}
                                     <div class="row">
@@ -460,7 +460,7 @@
         <section class="blog-single-section section-padding">
             <div class="container">
               <div class="col-12">
-                  <div class="section-title text-center">
+                  <div class="section-title text-center" data-aos="fade-up" data-aos-duration="2000">
                       <h2>Wishes</h2>
                   </div>
               </div>
@@ -468,7 +468,7 @@
                     <div class="col col-md-12">
                         <div class="blog-content blog-content-2 clearfix">
 
-                            <div class="comments-area">
+                            <div class="comments-area" data-aos="fade-up" data-aos-duration="2000">
                                 <div class="comments-section">
                                     <h3 class="comments-title">Thank you for all your wishes</h3>
                                     <ol class="comments">
@@ -503,7 +503,7 @@
         <footer class="site-footer">
             <div class="container">
                 <div class="row">
-                    <div class="text">
+                    <div class="text" data-aos="fade-up" data-aos-duration="2000">
                         <h2>Gunde Yaya & Gung Rani</h2>
                         <p>Thank you</p>
                     </div>
@@ -550,7 +550,7 @@
 
     <!-- Custom script for this template -->
     <script src="{% static 'twainlove/js/script.js' %}"></script>
-    <!-- <script>
+    <script>
     $(document).ready(function(){
         $("#myModal").modal('show');
         $('#tutup').click(function () {
@@ -560,6 +560,6 @@
       	    $("#my_audio").get(0).play();
         });
     });
-</script> -->
+</script>
 </body>
 </html>
