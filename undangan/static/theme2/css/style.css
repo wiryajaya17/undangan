@@ -1009,7 +1009,7 @@ div#preloader {
 
 .site-header .site-logo a {
   font-size: 27px;
-  font-size: 2.1875rem;
+  /* font-size: 2.1875rem; */
   color: #aa8560;
   padding: 9px 15px;
   font-family: 'Great Vibes', cursive;
@@ -1017,7 +1017,7 @@ div#preloader {
 
 @media (max-width: 991px) {
   .site-header .site-logo a {
-    color: #909090;
+    color: #aa8560;
     padding: 14px 15px 8px;
   }
 }
@@ -1982,10 +1982,10 @@ div#preloader {
     background-color: #fff;
   }
   .site-header .sticky-header .site-logo a {
-    color: #909090;
+    color: #aa8560;
   }
   .site-header .sticky-header #navbar > ul > li > a {
-    color: #909090;
+    color: #aa8560;
   }
   .site-header .sticky-header #navbar > ul > li > a:hover{
     color:#85aaba;
