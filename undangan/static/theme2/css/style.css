@@ -1745,6 +1745,14 @@ div#preloader {
   font-family: 'Great Vibes', cursive;
 }
 
+.modal .modal-title h3 {
+ font-size: 55px;
+ /* font-size: 4.5rem; */
+ font-weight: bold;
+ color: #aa8560;
+ font-family: 'Great Vibes', cursive;
+}
+
 @media (max-width: 991px) {
  .hero-style-2 .slide-title h2, .hero-style-3 .slide-title h2 {
     font-size: 35px;
