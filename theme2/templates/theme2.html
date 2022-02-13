@@ -94,7 +94,7 @@
                     <canvas id="spirit-canvas"></canvas>
                 </div>
                 <div class="slide">
-                    <div class="slide-inner slide-bg-image" data-background="{% static 'theme2/images/cta/cover-6.jpg' %}">
+                    <div class="slide-inner slide-bg-image" data-background="{% static 'theme2/images/cta/cover.jpg' %}">
                         <div class="container">
                             <!-- <div class="slide-content">
                                 <div data-swiper-parallax="200" class="slide-subtitle">
@@ -125,16 +125,30 @@
                             <p>Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa / Tuhan yang Maha Esa, kami akan menyelenggarakan acara resepsi Pawiwahan putra-putri kami: </p>
                             <div data-aos="fade-up" data-aos-duration="2000">
                               <h5>Save The Date </h5>
+                              <div class="batas">
+                                <img class="center" src="{% static 'theme2/images/section-title-flower-3.png' %}" alt=""></img>
+                              </div>
                               <h3>JUMAT</h3>
-                              <h4>11 . 03 . 2022</h4> <br>
+                              <h4>11 . 03 . 2022</h4>
                               <h6>14.00 WITA - selesai</h6>
+                              <div class="batas2">
+                                <img class="center" src="{% static 'theme2/images/section-title-flower-3.png' %}" alt=""></img>
+                              </div>
+
                               <br>
                               <br>
                             </div>
 
                             <div data-aos="fade-up" data-aos-duration="2000">
                               <h5>Venue </h5>
+                              <div class="batas2">
+                                <img class="center" src="{% static 'theme2/images/section-title-flower-3.png' %}" alt=""></img>
+                              </div>
                               <h4>PURI KANGINAN PELIATAN</h4> <br>
+
+                              <div class="batas2">
+                                <img class="center" src="{% static 'theme2/images/section-title-flower-3.png' %}" alt=""></img>
+                              </div>
                               <div class="btn btn-3"><a href="https://goo.gl/maps/TMCdg7gbpBoMVE9J8" style="color:#909090">Open Map</a></div>
                               <br>
                               <br>
@@ -157,13 +171,13 @@
          <!-- couple-area start -->
         <div id="couple" class="couple-area section-padding">
             <div class="container">
-                <div class="col-l2">
+                <div class="col-l2" data-aos="fade-up" data-aos-duration="2000">
                     <div class="section-title text-center">
                         <h2>Pawiwahan</h2>
                     </div>
                 </div>
                 <div class="couple-wrap">
-                    <div class="row">
+                    <div class="row" data-aos="fade-up" data-aos-duration="2000">
                         <div class="col-md-6 col-sm-6 grid couple-single">
                             <div class="couple-wrap">
                                 <div class="couple-img">
@@ -348,7 +362,7 @@
               <div class="modal-header">
                 <button id="tutup" type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <h6 class="modal-title">Kepada Yth. Bapak/ Ibu/ Saudara/ i:</h6>
-                <h3 class="modal-title">{{ message | upper }}</h3>
+                <h3 class="modal-title" style="color:#aa8560">{{ message | upper }}</h3>
               </div>
               <div class="modal-body">
                   <div class="out-info">
@@ -380,7 +394,7 @@
                                 </div>
                             </div>
                             <div class="contact-form form-style" data-aos="fade-up" data-aos-duration="2000">
-                                <form action="{% url 'create' %}" class="validate-rsvp-form" method="POST">
+                                <form action="{% url 'create2' %}" class="validate-rsvp-form" method="POST">
                                   {% csrf_token %}
                                     <div class="row">
                                         <div class="col-12 col-sm-6">
@@ -499,7 +513,7 @@
         </section>
 
         <!-- getting-area start -->
-        <div class="gta-area">
+        <!-- <div class="gta-area">
             <div class="container">
                 <div class="col-12">
                     <div class="section-title text-center">
@@ -526,7 +540,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- getting-area end -->
 
         <!-- getting-area start -->

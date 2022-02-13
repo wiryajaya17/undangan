@@ -365,7 +365,7 @@ button:focus {
 
 .section-title:before {
     content: "";
-    background: url(../images/section-title-flower-2.png) no-repeat center center / cover;
+    background: url(../images/section-title-flower-3.png) no-repeat center center / cover;
     width: 345px;
     height: 118px;
     position: absolute;
@@ -378,6 +378,35 @@ button:focus {
     transform: translateX(-50%);
 }
 
+/* wirya */
+.batas {
+  padding: -5px 0 -5px;
+  top: -100px;
+  width: auto;
+  height: 100px;
+  margin-top: -20px;
+  margin-bottom: -30px;
+}
+
+.batas2 {
+  padding: -5px 0 -5px;
+  top: -100px;
+  width: auto;
+  height: 100px;
+  margin-top: -30px;
+}
+
+.batas img {
+
+  width: 345px;
+  height: 118px;
+}
+
+.batas2 img {
+
+  width: 345px;
+  height: 118px;
+}
 @media (max-width: 767px) {
   .section-title {
     margin-bottom: 60px;

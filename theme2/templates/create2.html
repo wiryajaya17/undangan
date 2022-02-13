@@ -67,7 +67,7 @@
                             <span class="icon-bar"></span>
                         </button>
                         <h1 class="site-logo">
-                            <a class="navbar-brand" href="index.html">Millar & Aliza</a>
+                            <a class="navbar-brand" href="index.html">Gungde Yaya & Gung Rani</a>
                         </h1>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
@@ -89,7 +89,9 @@
                     <div class="col-lg-12">
                         <div class="cta-content">
                             <h2>Terima Kasih Atas Doanya</h2>
-                            <p><a href="{% url 'twainlove' %}">Kembali ke Undangan</a> </p>
+                            <!-- <p><a href="{% url 'theme2' %}">Kembali ke Undangan</a> </p> -->
+                            <p><a href="{{prev_url}}">Kembali ke Undangan</a> </p>
+                            <p>{{ prev_url | upper }}</p>
 
 
                             <!--
