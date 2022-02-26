@@ -47,6 +47,7 @@ URL:            http://themeforest.net/user/themepresss
 ----------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700|Great+Vibes');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 /*--------------------------------------------------------------
 #0.1    Theme Reset Style
 --------------------------------------------------------------*/
@@ -1547,6 +1548,25 @@ div#preloader {
   }
 }
 
+/* Wirya */
+.hero-slider .leave1 {
+  position: absolute;
+  left: 75%;
+  top: 4%;
+  width: 120px;
+  animation: rotate_three_six 7s infinite;
+  transform-origin: right top;
+}
+
+.hero-slider .leave2 {
+  position: absolute;
+  left: -15%;
+  top: 92%;
+  width: 120px;
+  animation: rotate_three_six 7s infinite;
+  transform-origin: right top;
+}
+
 .hero-slider .swiper-slide {
   position: relative;
   overflow: hidden;
@@ -2111,10 +2131,12 @@ div#preloader {
 }
 
 .couple-content h4 {
-    font-size: 20px;
+    font-size: 25px;
     color: #aa8560;
     font-weight: 400;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Allura', cursive;
+    /* font-family: 'Zen Kurenaido', sans-serif; */
+    /* font-family: 'Great Vibes', cursive; */
     /* font-family: 'themify', sans-serif; */
     /* text-transform: capitalize; */
 }
