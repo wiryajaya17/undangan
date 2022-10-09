@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'yayarani',
     'theme2',
+    'garcon',
 ]
 
 MIDDLEWARE = [
